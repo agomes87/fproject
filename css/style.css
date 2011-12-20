@@ -1,0 +1,73 @@
+/*
+    Class Project 10/11/11
+    by Alex Gomes
+*/
+
+/* ===== global styles ===== */
+
+body  {
+    font-family: Helvetica, Georgia, serif;    /* default page font */
+    background: #ccc;
+    margin: 0;          /* shorthand for all margins = 0 */
+    padding: 0;         /* no padding */
+}
+	#phptweets {
+		width:630px;
+		text-align:left;
+	}
+
+
+	
+	div.tpost {
+	width:270px;
+	background-color:#0083ba;
+	border-bottom:4px solid #4ac1d3;
+	padding:10px;
+	font-size:18px;
+	line-height:22px;
+	font: helvetica, verdana, arial;
+	text-align:center;
+	}
+
+	
+
+
+
+#wrapper {
+    width: 350px;       /* sets the content width */
+    margin: 0 auto;     /* no top/bottom margin, centered horizontally */
+/*	background: url(../images/layout2.png);   used for determining the placement of elements */
+	background-color: #0083ba;
+}
+
+/* structural elements */
+
+div#topcontainer{
+	 width: 350px;       /* sets the content width */
+	height: 30px;      /* sets the content height */
+    margin-left: 10px;
+	padding:0px;
+	border:0px;	
+	text-align:center;
+}
+div#maincontent{
+	width: 290px;       /* sets the content width */
+    margin: 10px;
+	padding: 10px 20px 0 20px;
+	border:0px;		
+	background-color:#4ac1d3;
+	text-align:center;
+}
+
+A:link {margin:0px auto; text-decoration: none; line-height:22px; font-size: 18px; color:#000000; font-weight:bold; display:block;	 }
+A:visited {margin:0px auto; text-decoration: none;  line-height:22px; font-size: 18px; color:#000000; font-weight:bold; display:block;}
+A:hover {margin:0px auto; text-decoration: none;  line-height:22px; font-size: 18px; border-left: 2px solid #ffffff; border-right: 2px solid #ffffff; color:#ffffff; font-weight:bold;  display:block; }
+
+
+.clear {
+    clear: both;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
